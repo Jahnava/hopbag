@@ -39,12 +39,14 @@ nav {
   }
 }
 
+
+
 .navbar-toggler-icon{
-  font-size: 100%;
+  font-size: 90%;
   height:50px;
   font-size: 50pt;
   color:black;
-  margin-top: -400px;
+  /* margin-top: -300px; */
 }
 
 
@@ -253,7 +255,6 @@ nav {
   width:90%;
   max-width: 1300px;
   margin: 2em auto;
-  background-color:#eee;
   padding:.5em;
 }
 
@@ -261,6 +262,9 @@ img {
   max-width:100%;
 }
 
+.bottom-img {
+  height:200px;
+}
 .item {
   width:25%;
   float:left;
@@ -298,6 +302,7 @@ img {
 
   .item {
     width:50%;
+
   }
 
   .item p {
@@ -316,4 +321,21 @@ img {
     width:100%;
   }
 
+}
+
+@media (max-width: 1000px) {
+  #mobile-hidden{
+  display:none;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  #mobile-hidden{
+display:none;
+  }
+}
+
+.social-media {
+  font-size: 30px;
+  margin:2%;
+  padding:1%;
 }
